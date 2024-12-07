@@ -95,7 +95,7 @@ class ITManage:
             logger.debug("课程列表获取成功")
             response_json = response.json()
             for i in response_json['resultObject']['items']:
-                if i['name'] == "Java程序设计任务驱动教程":
+                if i['name'] == self.courseName:
                     self.courseId = i['id']
             return response_json
         else:
