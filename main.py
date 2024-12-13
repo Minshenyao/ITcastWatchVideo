@@ -166,5 +166,5 @@ class ITManage:
 
 
 if __name__ == '__main__':
-    ITManage = ITManage("", "", "", "")
+    ITManage = ITManage("手机号码", "密码", "课程名", "复习课程名")
     ITManage.run()
